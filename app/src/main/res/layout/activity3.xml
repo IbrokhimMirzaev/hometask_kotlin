@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    tools:context=".MainActivity">
+
+    <View
+        android:id="@+id/yellow"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:background="#FFEB3B" />
+    <View
+        android:id="@+id/red"
+        android:layout_width="130dp"
+        android:layout_height="180dp"
+        android:layout_marginTop="60dp"
+        android:background="#FF0000" />
+    <View
+        android:id="@+id/blue"
+        android:layout_width="130dp"
+        android:layout_height="180dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="60dp"
+        android:background="#2196F3" />
+    <RelativeLayout
+        android:id="@+id/greenAndBlue"
+        android:layout_width="match_parent"
+        android:layout_below="@id/blue"
+        android:layout_marginTop="50dp"
+        android:layout_height="100dp">
+        <View
+            android:id="@+id/blue2"
+            android:layout_width="180dp"
+            android:layout_height="100dp"
+            android:layout_alignParentEnd="true"
+            android:background="#2196F3" />
+
+        <View
+            android:id="@+id/green"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:background="#4CAF50" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/orange"
+        android:layout_width="match_parent"
+        android:layout_below="@id/greenAndBlue"
+        android:layout_marginTop="50dp"
+        android:background="#FF5722"
+        android:layout_height="match_parent">
+        <View
+            android:id="@+id/dark"
+            android:layout_width="180dp"
+            android:layout_height="100dp"
+            android:layout_centerInParent="true"
+            android:background="#3F51B5" />
+
+        <View
+            android:id="@+id/red1"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_alignParentBottom="true"
+            android:background="#FF0000" />
+
+        <View
+            android:id="@+id/red2"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:background="#FF0000" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

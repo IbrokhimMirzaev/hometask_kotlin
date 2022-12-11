@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@color/black"
+    tools:context=".MainActivity">
+
+    <View
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="#FF0000"/>
+
+    <View
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerHorizontal="true"
+        android:background="#FF5722"/>
+
+    <View
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentEnd="true"
+        android:background="#FFEB3B"/>
+
+    <View
+        android:id="@+id/blue"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerInParent="true"
+        android:layout_marginHorizontal="20dp"
+        android:background="#2196F3"/>
+
+    <View
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_toStartOf="@+id/blue"
+        android:layout_centerVertical="true"
+        android:background="#4CAF50" />
+
+    <View
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_toEndOf="@+id/blue"
+        android:layout_centerVertical="true"
+        android:background="#673AB7" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:background="#673AB7" />
+
+</RelativeLayout>
